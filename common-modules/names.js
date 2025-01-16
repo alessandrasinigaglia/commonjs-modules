@@ -1,4 +1,5 @@
+//FUNCTION
 function name(firstname, lastname) {
-    return {Alessandra, Sinigaglia}
+    return {firstname, lastname}
 }
 module.exports = name;

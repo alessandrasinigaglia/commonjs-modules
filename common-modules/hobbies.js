@@ -1,4 +1,5 @@
+//FUNCTION
 function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
-    return {cooking, sport, videogames}
+    return {hobbyOne, hobbyTwo, hobbyThree}
 }
 module.exports = hobbies;
