@@ -1,5 +1,5 @@
-const names = require('./names');
-const hobbies = require('./hobbies');
+const names = require('./names.js');
+const hobbies = require('./hobbies.js');
 
 //FUNCTION
 function person() {
@@ -8,7 +8,5 @@ function person() {
     return {fullNames, allHobbies}
 }
 person()
-
-const person = require("./people");
 const infoPerson = person()
-console.log(person)
+console.log(infoPerson)
